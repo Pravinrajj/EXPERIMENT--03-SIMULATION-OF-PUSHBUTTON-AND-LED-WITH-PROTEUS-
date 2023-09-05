@@ -98,7 +98,7 @@ int main(void)
   
   while (1)
   {
-	  pushbutton= HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_3);
+	  pushbutton= HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_0);
 	  if(pushbutton==0)
 	  {
 		  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
